@@ -15,4 +15,4 @@
 =>then at last we use "git push -u origin main" to push the changes/files to the main branch in the remote repositry
 =>we can have both local and remote repositry and we can push the files from local to remote repositry
 =>our local repositry is in the .git file in the working directory which is hidden and the remote reposity is on the github
-=>we can use create a ".gitignore" which is hidden and we can write the file name in the ".gitignore" file so that those files stay hidden
+=>we can use create a ".gitignore" file and we can write the file name in the ".gitignore" file so that those files stay hidden in the remote repositry at the github
