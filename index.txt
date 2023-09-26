@@ -18,5 +18,6 @@
 =>we can use create a ".gitignore" file and we can write the file name in the ".gitignore" file so that those files stay hidden in the remote repositry at the github
 =>we can use "git clone https://github.com/AryanSaini1303/Portfolio.git" to clone a remote repositry to your local repositry, a new folder is created and all the files are stored in the that folder
 =>now we can modify that local repositry and can also push it to the current remote repositry
-=>we use "git branch brachname" to create a new branch
-=>we use "git merge branchname" to merge the specified branch with the current branch, after writing this command a text editor is opened to write a merge message if we want to and then just type "q!" and hit enter, the branches will be merged
+=>we use "git branch brachname" to create a new branch in the local repositry
+=>we use "git merge branchname" to merge the specified branch with the current branch, (after writing this command a text editor is opened to write a merge message if we want to and then just type "q!" and hit enter, the branches will be merged)
+=>"git merge --abort" aborts a merging process
