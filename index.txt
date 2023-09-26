@@ -1,2 +1,7 @@
-hello world
-hello there
+git log:provides the log of all the commits 
+git status:provides any pending commits or files which are not added
+git init:initialises a local repositry
+git add *:adds all the files to staging area
+git commit -m "message":commits the staged changes with message
+git diff filename:shows the unstaged changes which we have done in the file
+git checkout filename:"removes" the unstaged changes from working directory
