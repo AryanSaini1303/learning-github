@@ -1,3 +1,4 @@
+/*************************************GITHUB CHEATSHEET*********************************************************/
 =>git log:prints the log of all past commits/changes in the repositry
 =>git status:provides any pending commits or files which are not added
 =>git init:initialises a local repositry
