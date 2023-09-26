@@ -1,7 +1,18 @@
-git log:provides the log of all the commits 
-git status:provides any pending commits or files which are not added
-git init:initialises a local repositry
-git add *:adds all the files to staging area
-git commit -m "message":commits the staged changes with message
-git diff filename:shows the unstaged changes which we have done in the file
-git checkout filename:"removes" the unstaged changes from working directory
+=>git log:provides the log of all the commits 
+=>git status:provides any pending commits or files which are not added
+=>git init:initialises a local repositry
+=>git add *:adds all the files to staging area
+=>git commit -m "message":commits the staged changes with message
+=>git diff filename:shows the unstaged changes which we have done in the file
+=>git checkout filename:"removes" the unstaged changes from working directory
+
+=>first we initialise a repo locally in a working directory
+=>then we stage all the changes to the file/add file to the staging area using git "add *"
+=>then we use git commit -m "message" to commit all the files/changes to the local repositry
+=>we can then create a remote repositry on the github and link the local repositry with remote repositry
+=>use the command "git remote add origin https://github.com/AryanSaini1303/learning-github.git" to create a remote for the repositry, the link we used is the https link of the remote repositry
+=>then use "git branch -M main" to select the main branch
+=>then at last we use "git push -u origin main" to push the changes/files to the main branch in the remote repositry
+=>we can have both local and remote repositry and we can push the files from local to remote repositry
+=>our local repositry is in the .git file in the working directory which is hidden and the remote reposity is on the github
+=>we can use create a ".gitignore" which is hidden and we can write the file name in the ".gitignore" file so that those files stay hidden
