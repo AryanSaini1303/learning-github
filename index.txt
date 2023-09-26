@@ -1,6 +1,6 @@
 hello world we are here now
 
-=>git log:provides the log of all the commits 
+=>git log:provides the log of all the commits/changes
 =>git status:provides any pending commits or files which are not added
 =>git init:initialises a local repositry
 =>git add *:adds all the files to staging area
