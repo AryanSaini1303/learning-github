@@ -1,3 +1,5 @@
+hello world we are here now
+
 =>git log:provides the log of all the commits 
 =>git status:provides any pending commits or files which are not added
 =>git init:initialises a local repositry
