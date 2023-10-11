@@ -21,6 +21,7 @@
 =>now we can modify that local repositry and can also push it to the current remote repositry
 =>we use "git branch brachname" to create a new branch in the local repositry
 =>we can use "git checkout branchname" to switch to the specified branch
+=>we can use "git branch" to get a list of all the local repositries and "git branch -r" to get a list of all the remote repositries
 =>we use "git merge branchname" to merge the specified branch with the current branch,(after writing this command a text editor is opened to write a merge message if we want to and then just type "q!" and hit enter, the branches will be merged)
 =>"git merge --abort" aborts a merging process
 =>another person can search my repo and fork my repo on github, then he/she will have read-only access to my repo.
