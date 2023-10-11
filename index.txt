@@ -29,4 +29,5 @@ he/she can't directly change my file instead for the files to be changed they ha
 pull request after changing the files in the github text editor and i i.e. owner of the repositry will review the 
 changes and approve it, after then i can merge the changes in the main repo if i like the changes and if no conflict
 arises after merging.
+=>we can use "git pull https://github.com/AryanSaini1303/learning-github.git" to pull all the files/changes from a remote repositry to our local repositry
 /*****************************************************************************************************************/
