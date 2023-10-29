@@ -13,7 +13,9 @@
 =>we can then create a remote repositry on the github and link the local repositry with remote repositry
 =>use the command "git remote add origin https://github.com/AryanSaini1303/learning-github.git" to create a remote for the repositry, the link we used is the https link of the remote repositry
 =>then use "git branch -M main" to select the main branch
-=>then at last we use "git push -u origin main" to push the changes/files to the main branch in the remote repositry
+=>then at last we use "git push -u origin main" to push the changes/files from local main branch
+to the main branch in the remote repositry and as we have used "-u" so now we don't have to specify branch names again
+if we are pushing or pulling from the branches as mentioned earlier, we can simply write "git push" "git pull".
 =>we can have both local and remote repositry and we can push the files from local to remote repositry
 =>our local repositry is in the .git file in the working directory which is hidden and the remote reposity is on the github
 =>we can create a ".gitignore" file and we can write the file name in the ".gitignore" file so that those files stay hidden in the remote repositry at the github
