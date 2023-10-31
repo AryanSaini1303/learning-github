@@ -16,6 +16,7 @@
 =>then at last we use "git push -u origin main" to push the changes/files from local main branch
 to the main branch in the remote repositry and as we have used "-u" so now we don't have to specify branch names again
 if we are pushing or pulling from the branches as mentioned earlier, we can simply write "git push" "git pull".
+=>we can use "git checkout filepath" viz. "git checkout views/index.ejs" to remove all the unstaged changes from the file specified in the filepath
 =>we can have both local and remote repositry and we can push the files from local to remote repositry
 =>our local repositry is in the .git file in the working directory which is hidden and the remote reposity is on the github
 =>we can create a ".gitignore" file and we can write the file name in the ".gitignore" file so that those files stay hidden in the remote repositry at the github
